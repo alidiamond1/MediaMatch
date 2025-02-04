@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Outlet, Link } from 'react-router-dom';
-import Logo from '../images/Logo.png';
+
 
 const MainLayout = () => {
   return (
