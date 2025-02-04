@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Outlet, Link } from 'react-router-dom';
+import Logo from '../images/Logo.png';
 
 const MainLayout = () => {
   return (
@@ -12,10 +13,11 @@ const MainLayout = () => {
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center">
                 <img 
-                  src="./Logo.png"
+                  src={Logo}
                   alt="MediaMatch Logo" 
                   className="h-12 w-auto object-contain"
                   style={{ maxWidth: '180px' }}
+
                 />
               </Link>
             </div>
@@ -55,10 +57,11 @@ const MainLayout = () => {
             <div>
               <div className="flex items-center mb-4">
                 <img 
-                  src="./Logo.png"
+                  src={Logo}
                   alt="MediaMatch Logo" 
                   className="h-10 w-auto object-contain"
                   style={{ maxWidth: '150px' }}
+
                 />
               </div>
               <p className="text-gray-600">
