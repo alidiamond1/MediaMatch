@@ -212,6 +212,7 @@ function App() {
             <Route path="/discover" element={<DiscoverPage />} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/settings" element={<SettingsPage />} />
+            <Route path="/watchlist" element={<ProfilePage />} />
           </Routes>
         </main>
 
