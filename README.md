@@ -2,7 +2,7 @@
 
 A modern web application for discovering movies based on your mood and preferences. Built with React, Vite, and powered by TMDB API.
 
-🌐 **Live Demo**: [media-match-six.vercel.app](https://media-match-six.vercel.app)
+🌐 **Live Demo**: [MediaMatch](https://media-match-six.vercel.app)
 
 ## Features ✨
 
